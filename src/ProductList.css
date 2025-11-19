@@ -158,7 +158,15 @@ body {
     align-items: center;
     justify-content: center;
     width: 650px;
+}
+.luxury a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     font-size: 19px;
+    gap: 5px;
+    margin-right: 10px;
 }
 .cart{
     color: white;
@@ -187,6 +195,9 @@ body {
     border-right: none;
 
     
+}
+.active-link{
+    border-bottom: 3px solid white;
 }
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {

@@ -13,7 +13,6 @@ const CartItem = ({ onContinueShopping }) => {
         cart.forEach((item) => {
             total += parseFloat(item.cost.substring(1)) * item.quantity;
         });
-        console.log("total", total);
         return total;
     };
 
@@ -43,7 +42,7 @@ const CartItem = ({ onContinueShopping }) => {
     };
 
     const handleCheckoutShopping = (e) => {
-        alert("Functionality to be added for future reference");
+        alert("Coming Soon!! -> Functionality to be added for future reference");
     };
 
     return (
