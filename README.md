@@ -1,5 +1,5 @@
-# coding-project-template
-
+# e-plantShopping
+## Description
 A React application for an e-plant shopping platform, allowing users to browse, add to cart, and purchase plants online.
 ## Features
 - Browse a variety of plants with detailed descriptions and images.
